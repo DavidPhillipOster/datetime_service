@@ -20,7 +20,7 @@ In any program that uses Apple's text system, place the cursor anywhere you can 
 
 ## Notes:
 
-I bind this to <Command><Shift>D so in a single compound keysteoke I can enter the date.
+I bind this to ⌘⇧D so in a single compound keystroke I can enter the date.
 
 The date format is controlled by the **NSUserData** in the Info.plist. As shipped, it is set to the American-style 7/11/2021, but any format string that is compatible with `NSDateFormatter` may be used.
  
