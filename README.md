@@ -3,7 +3,7 @@ Insert Date - macOS service to  insert the date at the cursor.
 
 ## To Build:
 
-* Open the Xcode project and in the Info panel of the DateTime target change the prefix of the bundle Identifier from `com.example.${PRODUCT_NAME:rfc1034identifier}`  to a domain you control.
+* Open the Xcode project and in the Info panel of the DateTime target change the `com.example` prefix of the bundle Identifier from `com.example.${PRODUCT_NAME:rfc1034identifier}`  to a domain you control.
 
 * You may choose to adjust how the code is signed, but that isn't necessary.
 
@@ -11,7 +11,7 @@ Insert Date - macOS service to  insert the date at the cursor.
 
 ## To Install:
 
-* from the **Products** group in Xcode's **Product Navigator** select ![]([images/icon_64.png) `DateTime.service` and right-click to **Show in Finder** In the Finder, put ![](images/icon_64.png)  `DateTime.service` in your `Library/Services` directory.
+* from the **Products** group in Xcode's **Product Navigator** select ![](images/icon_64.png) `DateTime.service` and right-click to **Show in Finder** In the Finder, put ![](images/icon_64.png)  `DateTime.service` in your `Library/Services` directory.
 
 ## To Use:
 
